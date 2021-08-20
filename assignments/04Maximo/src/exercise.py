@@ -14,7 +14,7 @@ def main():
         print(numero2)
     elif numero2<numero3<numero1:
         print(numero1)
-    else:
+    elif numero3<numero2<numero1:
         print(numero1)
 
 
