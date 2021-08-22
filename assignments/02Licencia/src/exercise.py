@@ -1,10 +1,10 @@
 
 def main():
     #Escribe tu código debajo de esta línea
-    edad= int(input("Ingresa tu edad: "))
+    edad = int(input("Ingresa tu edad: "))
 
     if edad>=18:
-        iden= str(input("¿Tienes identificación oficial? (s/n): "))
+        iden= input("¿Tienes identificación oficial? (s/n): ")
         if iden=="s":
             print("Trámite de licencia concedido")
         elif iden=="n":
