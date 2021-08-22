@@ -28,6 +28,10 @@ def main():
         print(z)
         print(y)
         print(x)
+    elif x==y==z:
+        print(x)
+        print(y)
+        print(z)
 
 
 if __name__=='__main__':
