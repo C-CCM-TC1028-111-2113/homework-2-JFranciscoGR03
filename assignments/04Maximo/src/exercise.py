@@ -16,6 +16,8 @@ def main():
         print(num1)
     elif num3<num2<num1:
         print(num1)
+    elif num1==num2==num3:
+        print(num1)
 
 
 if __name__=='__main__':
